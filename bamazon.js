@@ -7,7 +7,6 @@ var inquirer = require("inquirer");
 // connect to mysql
 
 var mysql_creds = keys.mysql_creds;
-console.log(mysql_creds.mysql_passwd);
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
